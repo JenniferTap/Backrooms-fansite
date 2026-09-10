@@ -1,0 +1,40 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body{
+    background-image: url(img/eye.gif);
+    background-position: center;
+    background-size: 200px;
+}
+
+#link1{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+a{
+    color: rgb(69, 0, 0);
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    font-size: 3.5rem;
+}
