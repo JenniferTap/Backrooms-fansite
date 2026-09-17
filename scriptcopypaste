@@ -1,0 +1,11 @@
+//copy paste
+lyricsrow.onmouseover = function() {
+    lyricsrow.innerHTML = 'english';
+    lyricsrow.style.color = 'red';
+};
+
+lyricsrow.onmouseout = function() {
+    lyricsrow.innerHTML = 'japanese';
+    lyricsrow.style.color = 'rgb(61, 50, 2)';
+};
+//copy paste
